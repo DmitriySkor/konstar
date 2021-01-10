@@ -259,7 +259,7 @@ a.call_btn:hover {
     border-color: #2F95D9;
 }
 
-.call_btn img {
+.call_btn .fa {
     margin-right: 10px;
 }
 
@@ -320,4 +320,22 @@ text-decoration: none;
 
 a.hero_btn .fa{
     margin-left: 10px;
+}
+
+.section_title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.section_title h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #444444;
 }
