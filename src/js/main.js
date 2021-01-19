@@ -27,3 +27,8 @@ jQuery(function ($) {
     $(".masked-input").mask("+38 ( 999 ) 999-99-99");
 });
 
+$('.video_poster').click(function() {
+    this.style.display = 'none';
+    $('.video_you').css('display', 'block');
+    $('iframe.youtube').prop('src', 'https://www.youtube.com/embed/NBGJqOkjN00?;autoplay=1&;controls=0&;showinfo=0');
+  });
