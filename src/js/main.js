@@ -1,6 +1,23 @@
 // Инициализация owlCarousel
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel();
+    $(".owl-carousel").owlCarousel(
+        {
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:6
+                }
+            }
+        }
+    );
 });
 
 // Инициализация jQueryFormStyler
@@ -27,8 +44,21 @@ jQuery(function ($) {
     $(".masked-input").mask("+38 ( 999 ) 999-99-99");
 });
 
-$('.video_poster').click(function() {
-    this.style.display = 'none';
-    $('.video_you').css('display', 'block');
-    $('iframe.youtube').prop('src', 'https://www.youtube.com/embed/NBGJqOkjN00?;autoplay=1&;controls=0&;showinfo=0');
-  });
+
+$(function() { 
+    var videos  = $(".video_in");
+
+        videos.on("click", function(){
+            var elm = $(this),
+                conts   = elm.contents(),
+                le      = conts.length,
+                ifr     = null;
+
+            for(var i = 0; i<le; i++){
+              if(conts[i].nodeType == 8) ifr = conts[i].textContent;
+            }
+
+            elm.addClass("player").html(ifr);
+            elm.off("click");
+        });
+});
