@@ -62,3 +62,9 @@ $(function() {
             elm.off("click");
         });
 });
+
+// menu
+
+jQuery(document).ready(function($) {
+    $('.submenu > li').matchHeight();
+  });
