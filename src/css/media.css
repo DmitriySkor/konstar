@@ -13,24 +13,212 @@
 
 @media (min-width: 0) and (max-width: 1199px) {
 
+    .why_us_title{
+        margin-bottom: 10px;
+    }
+
+    .why_us_blue_text{
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .why_us_text{
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 0) and (max-width: 991px) {
+    .main_menu{
+        display: none;
+    }
+
+    .production_item_title{
+        font-size: 18px;
+    }
+
+    .in_numbers__circle{
+        width: 115px;
+        height: 115px;
+    }
+
+    a.call_btn{
+        width: 160px;
+    }
+
+    .why_us_title{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .why_us_blue_text{
+        font-size: 14px;
+    }
+
+    .why_us_text{
+        font-size: 12px;
+    }
+
+    .why_us_item_title{
+        font-size: 14px;
+    }
+
+    .why_us_item_text{
+        font-size: 14px;
+    }
+
+    .name_phone_line{
+        flex-wrap: wrap;
+    }
+
+    .form_input_wrap{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #c_text{
+        min-width: 100%;
+    }
+
+    .contacts_page_form{
+        margin-top: 10px;
+    }
 
 }
 
 @media (min-width: 0) and (max-width: 767px) {
+    .hero_text{
+        margin-left: 10px;
+    }
 
+    .production_item_wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .in_numbers__wrap{
+        flex-wrap: wrap;
+    }
+
+    .in_numbers__title{
+        max-width: 100%;
+    }
+
+    .video_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .about_hero_text{
+        margin-left: 20px;
+    }
+
+    .why_us{
+        margin-top: 44px;
+    }
+
+    .why_us_item{
+        margin-bottom: 20px;
+    }
+
+    .why_us_blue_text{
+        font-size: 16px;
+    }
+
+    .why_us_text{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .why_us_item_title{
+        font-size: 16px;
+    }
+
+    .contacts_page_form{
+        margin-bottom: 15px;
+    }
 }
 
 @media (min-width: 0) and (max-width: 575px) {
+    a.call_btn{
+        display: none;
+    }
+
+    .hero_text{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
 
 }
 
 @media (min-width: 0) and (max-width: 479px) {
+    .header_wrap{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 
+    a.call_btn{
+        display: none;
+    }
+
+    .header_addr{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .in_numbers__circle{
+        width: 105px;
+        height: 105px;
+    }
+
+    .about_hero_text{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+
+    .why_us_list{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
 }
 
 @media (min-width: 0) and (max-width: 360px) {
+
+    .header_contacts a{
+        font-size: 12px;
+        line-height: 1.2;
+        margin-right: 5px;
+    }
+
+    .header_contacts img{
+        margin-right: 5px;
+    }
+
+    .in_numbers__wrap{
+        min-height: 235px;
+    }
+
+    .in_numbers__circle{
+        width: 85px;
+        height: 85px;
+    }
+
+    .circle_text{
+        font-size: 18px;
+    }
+
+    .in_numbers__text{
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+    .section_title{
+        margin-top: 20px;
+    }
 
 }
