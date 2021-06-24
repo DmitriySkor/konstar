@@ -26,6 +26,18 @@
         font-size: 14px;
     }
 
+    .service_hero_title{
+        margin-bottom: 5px;
+    }
+
+    .service_hero_text{
+        font-size: 14px;
+    }
+
+    .service_hero_text p:first-child{
+        margin-bottom: 5px;
+    }
+
 }
 
 @media (min-width: 0) and (max-width: 991px) {
@@ -82,6 +94,39 @@
 
     .contacts_page_form{
         margin-top: 10px;
+    }
+
+    .service_hero_title{
+        line-height: 1.0;
+    }
+
+    .service_hero_text{
+        line-height: 1.3;
+    }
+
+    .service_what_section{
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    .what_item_title{
+        font-size: 18px;
+    }
+
+    .service_what_item{
+        font-size: 16px;
+    }
+
+    .service_what_section{
+        padding-bottom: 15px;
+    }
+
+    .service_text_block{
+        font-size: 14px;
+    }
+
+    .video_block{
+        height: 364px;
     }
 
 }
@@ -142,6 +187,52 @@
     .contacts_page_form{
         margin-bottom: 15px;
     }
+
+    .service_hero_title{
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .service_hero_text p:first-child{
+        margin-bottom: 30px;
+    }
+
+    .service_hero_text{
+        line-height: 22px;
+    }
+
+    .service_what_item{
+        font-size: 14px;
+    }
+
+    .what_item_title{
+        margin-top: 20px;
+    }
+
+    .service_three_img_section{
+        margin-top: 0px;
+    }
+
+    .service_three_img_section .why_line{
+        padding-bottom: 25px;
+    }
+    
+    .three_img_wrap{
+        margin-bottom: 20px;
+    }
+
+    .video_block{
+        height: 255px;
+    }
+
+    .video_btn{
+        width: 70px;
+    }
+
+    .tech_text_content{
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 0) and (max-width: 575px) {
@@ -152,6 +243,14 @@
     .hero_text{
         margin-top: 55px;
         margin-bottom: 55px;
+    }
+
+    .video_block{
+        height: 200px;
+    }
+
+    .tech_text_title{
+        font-size: 18px;
     }
 
 }
@@ -184,6 +283,14 @@
     .why_us_list{
         margin-top: 55px;
         margin-bottom: 55px;
+    }
+
+    .video_block{
+        height: 150px;
+    }
+
+    .video_btn{
+        width: 50px;
     }
 }
 
@@ -219,6 +326,15 @@
 
     .section_title{
         margin-top: 20px;
+    }
+
+    .tech_text_title{
+        font-size: 16px;
+    }
+
+    .service_video_wrap{
+        margin-top: 39px;
+        margin-bottom: 39px;
     }
 
 }
