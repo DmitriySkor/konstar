@@ -1659,7 +1659,7 @@ color: #000000;
 
 .services_text_block{
     margin-top: 65px;
-    margin-bottom: 80px;
+    margin-bottom: 65px;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -1686,3 +1686,114 @@ font-size: 16px;
 line-height: 160%;
 color: #000000;
 }
+
+.gallery_block{
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+
+.gallery_block_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 200%;
+    color: #2F95D9;
+    margin-bottom: 38px;
+}
+
+.owl-carousel {
+    width: 100%;
+  }
+  
+  .owl-carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .owl-carousel .item{
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 450px;
+  }
+  /* .owl-stage-outer {
+    border: 5px solid;
+  } */
+  
+  .owl-dots {
+    display: flex;
+  }
+  
+  .owl-dot {
+    padding: 0 10px;
+    margin: 5px;
+    outline: none;
+  }
+
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+      outline: none;
+      background: #ffffff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  }
+
+  .owl-prev{
+      position: absolute;
+      top:34%;
+      left: 1%;
+  }
+
+  .owl-next{
+      position: absolute;
+      top: 34% !important;;
+      right: 1%;
+  }
+
+  .doc_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 200%;
+    color: #2F95D9;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #F2F2F2;    
+    margin-bottom: 30px;
+  }
+
+  .doc_list_item{
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 55px;
+  }
+
+  .doc_list_item a{
+      position: relative;
+      width: 200px;
+      height: 287px;
+  }
+
+  .doc_select{
+      position: absolute;
+      left: 55px;
+      top: -33px;
+      display: none;
+      transition: .5s ease-in-out;
+  }
+
+  .doc_list_item a:hover .doc_select{
+      display: block;
+      transition: .5s ease-in-out;
+  }
+
+  .doc_text{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;    
+  }
+
